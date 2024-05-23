@@ -1,0 +1,830 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.top {
+    position: relative;
+    background: url("/images/doordash\ top\ bg\ img.webp")no-repeat center center/cover;
+    height: 40.625rem;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 1.438rem;
+    right: 35.688rem;
+    height: 1.563rem;
+    width: 13.063rem;
+}
+
+.navbar {
+    position: absolute;
+    right: 1.188rem;
+    top: 1.563rem;
+}
+
+.navbar li {
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 0.625rem 0.25rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.063rem;
+}
+
+.btn1 {
+    color: white;
+    background-color: rgb(245, 3, 3);
+    /*border: 1px solid red;
+    */padding: 0.563rem 0.625rem;
+    border-radius: 1.75rem;
+}
+
+.btn1:hover {
+    background-color: #e00808;
+}
+
+.btn2 {
+    color: black;
+    background-color: #fff;
+    /*border: 1px solid white;
+    */padding: 0.563rem 0.625rem;
+    border-radius: 1.75rem;
+}
+
+.discover {
+    position: absolute;
+    top: 17.375rem;
+    left: 19.875rem;
+    color: white;
+    font-family: arial;
+    font-size: 1.125rem;
+}
+
+.discArr {
+    position: absolute;
+    top: 21.813rem;
+    left: 52.25rem;
+    z-index: 1;
+}
+
+.discArr button {
+    background-color: rgb(245, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 3.125rem;
+    padding: 0.75rem;
+    font-size: 0.938rem;
+    font-weight: bold;
+}
+
+.location {
+    position: absolute;
+    top: 22.125rem;
+    left: 30.563rem;
+    z-index: 1;
+}
+
+.location img {
+    height: 1.875rem;
+}
+
+.delivery {
+    position: absolute;
+    top: 21.438rem;
+    left: 29.438rem;
+}
+
+#deliAdd {
+    height: 3.5rem;
+    width: 25.5rem;
+    border: 0.063rem solid white;
+    border-radius: 3.125rem;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 0.938rem;
+}
+
+.savedAdd {
+    position: absolute;
+    top: 4.5rem;
+    left: 6.375rem;
+    height: 2rem;
+    width: 12.688rem;
+    border: 0.063rem solid white;
+    border-radius: 3.125rem;
+    font-weight: bold;
+    padding: 0.313rem;
+    background-color: #fff;
+}
+
+.icon {
+    margin-right: 0.313rem;
+}
+
+.container {
+    position: relative;
+}
+
+.dasher, .partner, .experience {
+    /* border: 0.063rem solid black; */
+    width: 18.75rem;
+    text-align: center;
+}
+
+.dasher {
+    position: absolute;
+    top: 7.688rem;
+    left: 6.188rem;
+}
+
+.partner {
+    position: absolute;
+    top: 7.688rem;
+    left: 30.813rem;
+}
+
+.experience {
+    position: absolute;
+    top: 7.688rem;
+    left: 55.25rem;
+}
+
+.experience img {
+    height: 9.375rem;
+    /* width: 5.625rem; */
+}
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.063rem;
+    margin-top: 0.063rem;
+}
+
+a h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: red;
+    padding: 0.938rem;
+}
+
+.crave {
+    position: absolute;
+    top: 74.063rem;
+    width: 100%;
+    margin-top: 8.125rem;
+}
+
+.cravetxt, .signupDashtxt {
+    position: absolute;
+    font-family: arial;
+    top: 7.5rem;
+    left: 6.25rem;
+}
+
+.cravetxt h1, .signupDashtxt h1 {
+    font-size: 2.563rem;
+}
+
+.cravetxt h3 {
+    margin-top: 0.625rem;
+}
+
+.cravetxt p, .signupDashtxt p {
+    padding: 0.625rem 0.313rem 1.25rem 0rem;
+    font-size: 1.063rem;
+}
+
+.cravetxt button, .signupDashtxt button {
+    padding: 0.625rem;
+    background-color: rgb(224, 35, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 3.125rem;
+}
+
+.cravetxt button:hover, .signupDashtxt button:hover {
+    background-color: #c94343;
+}
+
+.craveimg img {
+    position: absolute;
+    right: 6rem;
+    width: 43.438rem;
+}
+
+.dashpass {
+    position: relative;
+    top: 64.75rem;
+    background-color: rgb(255, 240, 243);
+    width: 100%;
+    height: 37.5rem;
+    z-index: -1;
+    margin-top: 8.125rem;
+}
+
+.dashpassimg img, .growBiz img {
+    position: absolute;
+    width: 45.188rem;
+    height: 31.313rem;
+    top: 4.938rem;
+    left: 5.25rem;
+}
+
+.dashpasstxt, .growBiztxt {
+    position: absolute;
+    top: 13.75rem;
+    right: 5.625rem;
+    font-family: arial;
+    /* padding: 1.25rem; */
+}
+
+.dashpasstxt h1, .growBiz h1 {
+    font-size: 2.563rem;
+}
+
+.dashpasstxt p, .growBiz p {
+    padding: 0.625rem 0313rem 1.25rem 0rem;
+    font-size: 1.063rem;
+}
+
+.dashpasstxt button, .growBiz button {
+    padding: 0.625rem;
+    background-color: rgb(224, 35, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 3.125rem;
+}
+
+.dashpasstxt button:hover, .growBiz button:hover {
+    background-color: #c01919;
+}
+
+.getGrocery {
+    position: relative;
+    background: url("/images/get\ grocery\ and.avif")no-repeat center center/cover;
+    height: 40.625rem;
+    width: 100%;
+    top: 64.75rem;
+}
+
+.getGrocerytxt {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    height: 40.625rem;
+    width: 100%;
+}
+
+.getGrocerytxt h1 {
+    margin-top: 13.75rem;
+}
+
+.getGrocerytxt h3 {
+    margin-top: 1.875rem;
+}
+
+.getGrocerytxt p {
+    margin-top: 0.938rem;
+    font-size: 1rem;
+}
+
+.getGrocerytxt button {
+    padding: 0.625rem;
+    background-color: rgb(224, 35, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 3.125rem;
+    margin-top: 1.25rem;
+}
+
+.getGrocery button:hover {
+    background-color: #c01919;
+}
+
+.convenience {
+    position: absolute;
+    top: 193.688rem;
+    width: 100%;
+}
+
+.conveniencetxt {
+    position: absolute;
+    top: 12.5rem;
+    left: 6.125rem;
+}
+
+.conveniencetxt h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.438rem;
+}
+
+.conveniencetxt p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.063rem;
+    margin-top: 0.938rem;
+    margin-bottom: 0.313rem;
+}
+
+.conveniencetxt button {
+    padding: 0.625rem;
+    background-color: rgb(224, 35, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 3.125rem;
+    margin-top: 1.25rem;
+}
+
+.conveniencetxt button:hover {
+    background-color: #c01919;
+}
+
+.convenienceimg img {
+    position: absolute;
+    right: 6.063rem;
+}
+
+.signupDash {
+    position: absolute;
+    top: 336.875rem;
+    width: 100%;
+    margin-top: 5.625rem;
+
+}
+
+.signupDashHeading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 3.125rem;
+}
+
+.signupDashtxt {
+    position: absolute;
+    top: 16.25rem;
+}
+
+.signupDash h1 {
+    font-size: 2rem;
+    font-family: arial;
+}
+
+.signupDashtxt p {
+    font-family: arial;
+    font-size: 0.938rem;
+}
+
+.signupDashimg img {
+    position: absolute;
+    right: 6.063rem;
+}
+
+.growBiz {
+    position: relative;
+    top: 131.188rem;
+    background-color: rgb(255, 240, 243);
+    width: 100%;
+    height: 37.5rem;
+    z-index: -1;
+    margin-top: 10.625rem;
+}
+
+.todoGifting {
+    position: relative;
+    top: 99.563rem;
+    background-color: rgb(255, 240, 243);
+    width: 100%;
+    height: 114.375rem;
+    z-index: -1;
+}
+
+.todoHeading {
+    position: absolute;
+    top: 5.625rem;
+    text-align: center;
+    left: 31.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.todo1 {
+    position: absolute;
+    left: 6.313rem;
+    top: 14.375rem;
+    text-align: center;
+}
+
+.todo1 img, .todo2 img, .todo3 img, .todo4 img {
+    height: 34.438rem;
+    width: 34.5rem;
+}
+
+.todo2 {
+    position: absolute;
+    right: 6.313rem;
+    top: 14.375rem;
+    text-align: center;
+}
+
+.todo3 {
+    position: absolute;
+    left: 6.313rem;
+    top: 66.438rem;
+    text-align: center;
+}
+
+.todo4 {
+    position: absolute;
+    right: 6.313rem;
+    top: 66.438rem;
+    text-align: center;
+}
+
+.todo1 h1, .todo2 h1, .todo3 h1, .todo4 h1 {
+    font-family: arial;
+    font-size: 1.813rem;
+    margin: 0.625rem;
+}
+
+.todo1 p, .todo2 p, .todo3 p, .todo4 p {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.938rem;
+    margin: 0.625rem;
+}
+
+.todo1 button, .todo2 button, .todo3 button, .todo4 button {
+    padding: 0.625rem;
+    background-color: rgb(224, 35, 35);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 3.125rem;
+    margin-top: 1.25rem;
+}
+
+.todo1 button:hover, .todo2 button:hover, .todo3 button:hover, .todo4 button:hover {
+    background-color: #c01919;
+}
+
+.getMore {
+    position: absolute;
+    top: 40.625rem;
+    width: 90%;
+    left: 5.625rem;
+    height: 6.25rem;
+}
+
+.getMore h1 {
+    text-align: center;
+}
+
+.getMore table {
+    margin-top: 0.625rem;
+    width: 100%;
+    padding: 0rem;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    padding: 0.625rem;
+}
+
+td:hover {
+    background-color: rgb(245, 240, 240);
+}
+
+th {
+    border-bottom: 0.125rem solid rgb(245, 240, 240);
+    padding: 0.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th:hover {
+    border-bottom: 0.125rem solid black;
+    background-color: rgb(245, 240, 240);
+}
+
+.midTh {
+    width: 25%;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(46, 44, 44);
+    height: 46.75rem;
+    width: 100%;
+    top: 56.25rem;
+}
+
+.fh4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1.875rem;
+    left: 4.313rem;
+}
+
+.category1 {
+    position: absolute;
+    /* color: white; */
+    /* height: 31.25rem; */
+    width: 100%;
+    top: 3.125rem;
+}
+
+.category1 ul {
+    position: absolute;
+    left: 3.875rem;
+    top: 0.625rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.category1 li a, .category2 li a, .category3 li a, .category4 li a, .know li a, .help li a, .doingBiz li a {
+    display: block;
+    color: rgb(218, 211, 211);
+    text-align: left;
+    padding: 0.375rem;
+    text-decoration: none;
+}
+
+.category1 li a:hover, .category2 li a:hover, .category3 li a:hover, .category4 li a:hover, .know li a:hover, .help li a:hover, .doingBiz li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.category2 {
+    position: absolute;
+    /* color: white; */
+    top: 3.75rem;
+    width: 100%;
+    /* left: 22.5rem; */
+}
+
+.category2 ul {
+    position: absolute;
+    left: 22.5rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.category3 {
+    position: absolute;
+    /* color: white; */
+    top: 3.75rem;
+    width: 100%;
+}
+
+.category3 ul {
+    position: absolute;
+    left: 40.375rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.category4 {
+    position: absolute;
+    top: 3.75rem;
+    width: 100%;
+}
+
+.category4 ul {
+    position: absolute;
+    left: 60rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.know {
+    position: absolute;
+    width: 100%;
+    top: 16.25rem;
+}
+
+.kh4 {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 14.375rem;
+    left: 4.313rem;
+}
+
+.know ul {
+    position: absolute;
+    left: 3.875rem;
+    top: 0.625rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.help {
+    position: absolute;
+    width: 100%;
+    top: 16.25rem;
+}
+
+.helph4 {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 14.375rem;
+    left: 19.313rem;
+}
+
+.help ul {
+    position: absolute;
+    left: 19.313rem;
+    top: 0.625rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.doingBiz {
+    position: absolute;
+    width: 100%;
+    top: 16.25rem;
+}
+
+.bizh4 {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 14.375rem;
+    left: 31.563rem;
+}
+
+.doingBiz ul {
+    position: absolute;
+    left: 31.188rem;
+    top: 0.625rem;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.appstoreLogo {
+    position: absolute;
+    right: 23rem;
+    top: 8.5rem;
+}
+
+.googlestoreLogo {
+    position: absolute;
+    right: 23rem;
+    top: 12.438rem;
+}
+
+.appstoreLogo img, .googlestoreLogo img { 
+    position: absolute;
+    height: 3.188rem;
+    width: 10rem;
+    background-color: rgb(46, 44, 44);
+}
+
+.appstoreLogo img:hover, .googlestoreLogo img:hover {
+    background-color: #fff;
+}
+
+.bottNavImg img{
+    position: absolute;
+    top: 42.188rem;
+    left: 3.938rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.bottNav {
+    position: absolute;
+    top: 42.813rem;
+    left: 6.563rem;
+}
+
+.bottNav ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.813rem;
+}
+
+.bottNav li {
+    float: left;
+}
+
+.bottNav li a {
+    text-decoration: none;
+    color: rgb(218, 211, 211);
+    padding: 0.375rem;
+}
+
+.bottNav li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: absolute;
+    top: 42.25rem;
+    left: 41.188rem;
+    color: rgb(218, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright p {
+    font-size: 0.75rem;
+}
+
+.icons {
+    position: absolute;
+    top: 42.25rem;
+    right: 7.5rem;
+    color: grey;
+}
+
+.facebook, .twitter, .instagram{
+    color: grey;
+    padding: 0.375rem;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover {
+    color: white;
+}
+
+.dropdown {
+    position: absolute;
+    top: 42.25rem;
+    right: 19.375rem;
+}
+
+#cars {
+    height: 2.5rem;
+    border: none;
+    width: 9.375rem;
+    border-radius: 3.125rem;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.globe {
+    width: 100%;
+}
+
+.globe img {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.625rem;
+    height: 1.875rem;
+    width: 1.875rem;
+}
